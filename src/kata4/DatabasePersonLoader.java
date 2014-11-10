@@ -42,7 +42,7 @@ public class DatabasePersonLoader implements PersonLoader {
                 resultSet.getString("adress"),
                 resultSet.getString("city"),
                 resultSet.getString("state"),
-                resultSet.getString("email"),
+                new Mail(resultSet.getString("email")),
                 resultSet.getString("web"));
     }
 }
