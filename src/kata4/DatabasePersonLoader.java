@@ -39,7 +39,7 @@ public class DatabasePersonLoader implements PersonLoader {
                 resultSet.getString("first_name"),
                 resultSet.getString("last_name"),
                 resultSet.getString("company_name"),
-                resultSet.getString("adress"),
+                resultSet.getString("address"),
                 resultSet.getString("city"),
                 resultSet.getString("state"),
                 new Mail(resultSet.getString("email")),
